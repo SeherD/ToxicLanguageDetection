@@ -1,0 +1,66 @@
+Epoch 1/10
+620/620 [==============================] - 34s 51ms/step - loss: 0.3696 - accuracy: 0.8727 - auc: 0.8683 - val_loss: 0.2867 - val_accuracy: 0.9036 - val_auc: 0.9190
+Epoch 2/10
+620/620 [==============================] - 32s 52ms/step - loss: 0.2730 - accuracy: 0.9024 - auc: 0.9266 - val_loss: 0.2622 - val_accuracy: 0.9050 - val_auc: 0.9336
+Epoch 3/10
+620/620 [==============================] - 31s 51ms/step - loss: 0.2554 - accuracy: 0.9078 - auc: 0.9361 - val_loss: 0.2676 - val_accuracy: 0.9098 - val_auc: 0.9334
+Epoch 4/10
+620/620 [==============================] - 28s 46ms/step - loss: 0.2466 - accuracy: 0.9116 - auc: 0.9407 - val_loss: 0.2600 - val_accuracy: 0.9098 - val_auc: 0.9354
+Epoch 5/10
+620/620 [==============================] - 29s 46ms/step - loss: 0.2390 - accuracy: 0.9149 - auc: 0.9446 - val_loss: 0.2668 - val_accuracy: 0.9094 - val_auc: 0.9384
+Epoch 6/10
+620/620 [==============================] - 29s 46ms/step - loss: 0.2312 - accuracy: 0.9159 - auc: 0.9477 - val_loss: 0.2521 - val_accuracy: 0.9114 - val_auc: 0.9401
+Epoch 7/10
+620/620 [==============================] - 30s 49ms/step - loss: 0.2249 - accuracy: 0.9186 - auc: 0.9492 - val_loss: 0.2597 - val_accuracy: 0.9116 - val_auc: 0.9399
+Epoch 8/10
+620/620 [==============================] - 30s 49ms/step - loss: 0.2191 - accuracy: 0.9200 - auc: 0.9530 - val_loss: 0.2695 - val_accuracy: 0.9070 - val_auc: 0.9370
+Epoch 9/10
+620/620 [==============================] - 31s 50ms/step - loss: 0.2136 - accuracy: 0.9228 - auc: 0.9557 - val_loss: 0.2650 - val_accuracy: 0.9100 - val_auc: 0.9389
+Epoch 10/10
+620/620 [==============================] - 31s 50ms/step - loss: 0.2062 - accuracy: 0.9250 - auc: 0.9583 - val_loss: 0.2672 - val_accuracy: 0.9106 - val_auc: 0.9359
+
+
+155/155 [==============================] - 3s 9ms/step - loss: 0.2672 - accuracy: 0.9106 - auc: 0.9359
+Test Accuracy: 91.06314182281494
+Test AUC: 93.59361529350281
+155/155 [==============================] - 2s 7ms/step
+Tweet: jihadi john has struck again prayers with the victims' families what is the bounty on his head time 4 him 2 meet allah
+True class: neither
+Predicted class: neither
+---
+Tweet: pussy on my mouth pussy on my pinky ring
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: rt atl princess a real bitch know she gotta pluck dat nipple hair
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: this one bitch dont feel the same no more an henny dont really kill the pain no moree
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: i aint mad at you thats what hoes do
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: fucc nicca
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: yo can you guys stop being little bitches just know everything happens for a reason of your meant to be you will be 128079
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: rt iam kandiraven fuck ur wcw let me see wat ur current bitch look like oowe
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: rt kaaatt0 i'm snatching all your bitches at my leisuuuure
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: early worm gets the bird bslfe goodmorning http t co dfe8mf2q28
+True class: neither
+Predicted class: neither
+---

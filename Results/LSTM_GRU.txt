@@ -1,0 +1,66 @@
+Epoch 1/10
+620/620 [==============================] - 101s 156ms/step - loss: 0.3358 - accuracy: 0.8842 - auc: 0.8900 - val_loss: 0.2651 - val_accuracy: 0.9072 - val_auc: 0.9337
+Epoch 2/10
+620/620 [==============================] - 93s 149ms/step - loss: 0.2565 - accuracy: 0.9100 - auc: 0.9324 - val_loss: 0.2483 - val_accuracy: 0.9120 - val_auc: 0.9410
+Epoch 3/10
+620/620 [==============================] - 102s 165ms/step - loss: 0.2369 - accuracy: 0.9151 - auc: 0.9442 - val_loss: 0.2501 - val_accuracy: 0.9088 - val_auc: 0.9419
+Epoch 4/10
+620/620 [==============================] - 114s 184ms/step - loss: 0.2206 - accuracy: 0.9213 - auc: 0.9511 - val_loss: 0.2496 - val_accuracy: 0.9151 - val_auc: 0.9409
+Epoch 5/10
+620/620 [==============================] - 127s 206ms/step - loss: 0.2060 - accuracy: 0.9258 - auc: 0.9566 - val_loss: 0.2478 - val_accuracy: 0.9187 - val_auc: 0.9405
+Epoch 6/10
+620/620 [==============================] - 124s 199ms/step - loss: 0.1871 - accuracy: 0.9305 - auc: 0.9641 - val_loss: 0.2573 - val_accuracy: 0.9149 - val_auc: 0.9384
+Epoch 7/10
+620/620 [==============================] - 137s 221ms/step - loss: 0.1641 - accuracy: 0.9386 - auc: 0.9727 - val_loss: 0.2784 - val_accuracy: 0.9133 - val_auc: 0.9287
+Epoch 8/10
+620/620 [==============================] - 158s 255ms/step - loss: 0.1467 - accuracy: 0.9427 - auc: 0.9774 - val_loss: 0.2893 - val_accuracy: 0.9137 - val_auc: 0.9277
+Epoch 9/10
+620/620 [==============================] - 153s 247ms/step - loss: 0.1228 - accuracy: 0.9532 - auc: 0.9832 - val_loss: 0.3197 - val_accuracy: 0.9122 - val_auc: 0.9231
+Epoch 10/10
+620/620 [==============================] - 143s 231ms/step - loss: 0.1051 - accuracy: 0.9602 - auc: 0.9868 - val_loss: 0.3541 - val_accuracy: 0.9080 - val_auc: 0.9119
+
+
+155/155 [==============================] - 15s 84ms/step - loss: 0.3541 - accuracy: 0.9080 - auc: 0.9119
+Test Accuracy: 90.8008873462677
+Test AUC: 91.19442105293274
+155/155 [==============================] - 12s 69ms/step
+Tweet: rt rashadbf never trust a bitch that take quick ass showers
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: terio got all the hoes 128557
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: rt imfinddory lol when bitches tryna chill with me like do u kno who i am im the mother fuxin dory hoe i touched the butt
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: noworriezzzz basically we're mad at them for being hoes
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: i can neva count my stash cause i always lose count i can neva keep no bitch cuz i put them hoes out
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: rt bnasty00037 could you please refrain from being a dumb bitch
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: yeridzee bitches better watch out because we're running the tables tonight 128521 127867 127866 128588
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: degenerateartist can't do it all on card gt i'm not a french muslim retard gt i don't expect or demand a child bride yard cuz i got man dick gt
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: your bitch choosing just let'r
+True class: offensive language
+Predicted class: offensive language
+---
+Tweet: it's just not the same littledebbie cloud cake are not twinkies http t co ooilml6m
+True class: neither
+Predicted class: neither
+---
