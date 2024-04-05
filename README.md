@@ -9,13 +9,13 @@ This repository contains the code and resources used in a study aimed at develop
 - `Model.ipynb`: Jupyter notebook containing the code for the models.
 - `train.csv`: Dataset used for training the models.
 - `model_evaluation_results.xlsx`: Excel file containing the evaluation results of the models.
-- !ModelArch.jpg: Diagram illustrating the architecture of the models.
+- `ModelArch.jpg`: Diagram illustrating the architecture of the models.
 - Confusion Matrices: 
   - `model_GRU.png`
   - `model_LSTM.png`
-  - !model_LSTM_ConvGRU.png
+  - `model_LSTM_ConvGRU.png`
   - `model_LSTM_ConvGRU_word2vec.png`
-  - !model_LSTM_GRU.png
+  - `model_LSTM_GRU.png`
   - `model_LSTM_GRU_Word2Vec.png`
 
 ## Methodology
@@ -35,7 +35,10 @@ Word2Vec and GloVe are two popular methods used in NLP to convert words into num
 
 ### Model Architecture
 
+
 Two main models and two baseline models were trained and tested on the dataset:
+![ModelArch](https://github.com/SeherD/ToxicLanguageDetection/assets/59703840/a3795806-2f80-4c68-ae75-ce40b14d54e7)
+
 
 1. LSTM-GRU Model: A sequential model that leverages the power of both Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) layers.
 2. LSTM-ConvGru Model: A hybrid model that combines the strengths of Convolutional Neural Networks (CNNs) and RNNs for sequence processing.
@@ -52,6 +55,8 @@ The following evaluation metrics were used for training and testing the models:
 - Precision
 - Recall
 - F1-Score
+![model_LSTM_GRU](https://github.com/SeherD/ToxicLanguageDetection/assets/59703840/b3bd6ee1-d186-4d5f-a10a-bb616ccf92d9)
+![model_LSTM_ConvGRU](https://github.com/SeherD/ToxicLanguageDetection/assets/59703840/382209f2-5797-4a8f-8ec1-457543598cf7)
 
 ## Dataset
 
