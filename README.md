@@ -51,10 +51,15 @@ The following evaluation metrics were used for training and testing the models:
 
 - Categorical Cross Entropy Loss
 - Categorical Accuracy
+![Accuracy](https://github.com/SeherD/ToxicLanguageDetection/assets/59703840/a2ef3995-997a-49fe-83f9-bc78d2e70fd0)
+
 - Categorical AUC (Area Under the Curve)
 - Precision
 - Recall
 - F1-Score
+![F1-Score - LSTM_ConvGRU GloVE vs Word2Vec](https://github.com/SeherD/ToxicLanguageDetection/assets/59703840/c920b766-4f3f-4419-8ff8-141c31520e9b)
+
+Confusion Matrices were also generated for all models. 
 ![model_LSTM_GRU](https://github.com/SeherD/ToxicLanguageDetection/assets/59703840/b3bd6ee1-d186-4d5f-a10a-bb616ccf92d9)
 ![model_LSTM_ConvGRU](https://github.com/SeherD/ToxicLanguageDetection/assets/59703840/382209f2-5797-4a8f-8ec1-457543598cf7)
 
