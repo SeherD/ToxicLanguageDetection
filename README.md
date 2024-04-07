@@ -57,7 +57,8 @@ The following evaluation metrics were used for training and testing the models:
 - Precision
 - Recall
 - F1-Score
-![F1-Score - LSTM_ConvGRU GloVE vs Word2Vec](https://github.com/SeherD/ToxicLanguageDetection/assets/59703840/c920b766-4f3f-4419-8ff8-141c31520e9b)
+![F1-Score - LSTM_ConvGRU GloVE vs Word2Vec](https://github.com/SeherD/ToxicLanguageDetection/assets/59703840/41de995d-2c94-401b-8f18-d8ba07488315)
+
 
 Confusion Matrices were also generated for all models. 
 ![model_LSTM_GRU](https://github.com/SeherD/ToxicLanguageDetection/assets/59703840/b3bd6ee1-d186-4d5f-a10a-bb616ccf92d9)
