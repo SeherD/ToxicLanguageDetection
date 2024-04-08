@@ -78,3 +78,54 @@ The dataset contains the following fields:
 - `neither_count` (numerical): How many annotations classified a particular tweet as neither hate speech nor offensive language.
 - `class` (numerical): Denotes the classification assigned by the most annotations. In other words, a numerical label depicting class that had the highest value among the hate_speech_count, offensive_language_count, and neither_count: A value of 0 means the tweet is classified as hate speech, 1 indicates offensive language, and 2 means the tweet is classified as neither hate speech nor offensive language. 
 - `tweet` (text): the written content of the tweet
+
+# Setting Up and Running the Code
+
+This section provides instructions on how to set up and run the provided code, including library requirements, dataset location, and the GloVe embedding file.
+
+## Library Requirements
+
+The code requires the following Python libraries:
+
+- pandas
+- gensim
+- keras
+- sklearn
+- numpy
+- imblearn
+- matplotlib
+- seaborn
+
+You can install these libraries using pip:
+
+```bash
+pip install pandas gensim keras sklearn numpy imbalanced-learn matplotlib seaborn
+```
+
+## Dataset Location
+
+The code uses a dataset file named 'train.csv'. Make sure to place this file in the same directory as the Jupyter notebook. If your dataset is located elsewhere, you can change the following line in the code to reflect the correct path:
+
+```python
+data = pd.read_csv('train.csv')
+```
+
+## GloVe Embedding File
+
+The code also uses a GloVe (Global Vectors for Word Representation) embedding file named 'glove.twitter.27B.100d.txt'. This file should also be located in the same directory as your Python script or Jupyter notebook. If your GloVe file is located elsewhere, you can change the following line in the code to reflect the correct path:
+
+```python
+with open('glove.twitter.27B.100d.txt', 'r',  encoding='utf-8') as f:
+```
+
+You can download the GloVe embeddings from the [GloVe website](https://nlp.stanford.edu/projects/glove/).
+
+## Running the Code
+
+After installing the required libraries and ensuring the dataset and GloVe file are in the correct locations, you can run the code in a Python environment. 
+
+Please note that training the models may take a significant amount of time, depending on your system's specifications. You may want to adjust the number of epochs or other parameters to suit your needs. 
+
+After the models have been trained, the code will save them to the current directory. It will also generate a confusion matrix for each model and save these as .png files. Finally, it will generate a classification report for each model and save these results to an Excel file named 'model_evaluation_results.xlsx'. 
+
+If you encounter any issues while running the code, make sure to check your dataset and GloVe file paths, and ensure all required libraries are correctly installed.
